@@ -1,0 +1,28 @@
+
+#chart-container{
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#chart1{
+    width: 60%;
+    height: 600px;
+    
+}   
+
+#chart2{
+    margin-top: 100px;
+    width: 20%;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    left: -10px;
+}
+
+.canvasjs-chart-credit{
+    display: none;
+    color: aliceblue;
+}
